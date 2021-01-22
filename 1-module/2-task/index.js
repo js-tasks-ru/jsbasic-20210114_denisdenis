@@ -11,8 +11,8 @@ function print(text) {
  * @param {string | null} name
  * @returns {boolean}
  */
-function isValid(name) {
-  // ваш код...
+function isValid(name) {  
+  return (name && name.length > 3) ? (name.includes(' ') === false) : false;
 }
 
 function sayHello() {
